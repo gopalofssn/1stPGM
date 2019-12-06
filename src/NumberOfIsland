@@ -1,0 +1,24 @@
+public class  NumberOfIsland{
+
+/*
+ 1 being land , 0 being water. find numbers of island in the 2D matrix
+ 
+ Ans : 5
+*/
+
+private static int noOfInslan(int[][] mat) {
+
+}
+public static void main(String[] args) {
+	int mat[][] = {
+		        {1, 1, 0, 0, 0},
+            {0, 1, 0, 0, 1},
+            {1, 0, 0, 1, 1},
+            {0, 0, 0, 0, 0},
+            {1, 0, 1, 0, 1} 
+	    };
+	
+	System.out.println(noOfInslan(mat));
+   }
+   
+   }
